@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700&display=swap');
+
+html {
+  border: 4px solid #fe667b;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  color: #575757;
+  background: #c0c2ce;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+a {
+  color: black;
+  color: #575757;
+}
+
+a:hover {
+  color: #fe667b;
+  text-decoration: none;
+}
+
+#contact-section {
+  margin-top: 30px;
+}
+
+#contact-section a {
+  padding: 10px;
+}
+
+#jumbotron-section {
+  margin: 100px 0;
+}
+
+h1 {
+  letter-spacing: 5px;
+  text-shadow: 0 1px #fe667b;
+}
+
+h2 {
+  font-style: italic;
+}
+
+h3 {
+  margin-bottom: 1em;
+}
+
+.me-photo {
+  width: 250px;
+  height: 100%;
+  border: 1px solid #fe667b;
+}
+
+#about-me-section>p:nth-of-type(2) {
+  max-width: 500px;
+  margin: 20px auto
+}
+
+@media (max-width: 550px) {
+  #about-me-section {
+    text-align: justify !important;
+  }
+}
+
+.email-anchor {
+  text-decoration: underline;
+}
+
+ul {
+  column-count: 3;
+  column-gap: 5em;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 0
+}
+
+li {
+  padding: 5px 0;
+}
+
+.section-heading {
+  text-align: center;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+#websites-section {
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+.card {
+  background: #c0c2ce;
+  margin: 40px 20px;
+  border: none;
+  border-radius: 3px;
+  border: 1px solid #fe667b;
+  text-align: center;
+  transition: box-shadow 500ms;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 8px 7px rgba(136, 136, 136, 0.66)
+}
+
+.card-title {
+  text-align: center;
+  padding-top: 6px;
+  text-shadow: 0px 1px #fe667b;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+}
+
+.card-img-top {
+  border-radius: 0px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.card-body {
+  padding: 5px 30px !important;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-body a {
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.card-body a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fe667b;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.card-body a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.magnificent-paragraph {
+  font-style: italic;
+  margin: 50px;
+}
+
+#footer {
+  line-height: 3;
+  padding-top: 15px;
+}
+
+#footer p {
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  margin: 35px 0;
+}
+
+.fa-heart {
+  color: #f20000;
+  font-size: 0.625em;
+}
+
+/* CSS for jQuery plugin */
+html.sr .load-hidden {
+  visibility: hidden;
+}
