@@ -93,7 +93,7 @@ li {
 }
 
 .item {
-  background: white;
+  /* background: white; */
   padding: 20px;
   /* align-self: center; */
   border: 1px solid #fe667b;
