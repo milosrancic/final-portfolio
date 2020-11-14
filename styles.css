@@ -7,7 +7,8 @@ html {
 body {
   font-family: "IBM Plex Mono", monospace;
   color: #575757;
-  background: #c0c2ce;
+  color: black;
+  background: #e1e2e8;
   max-width: 1400px;
   margin: 0 auto;
   text-align: justify;
@@ -15,7 +16,7 @@ body {
 
 a {
   color: black;
-  color: #575757;
+  /* color: #575757; */
 }
 
 a:hover {
@@ -186,4 +187,11 @@ li {
 html.sr .load-hidden {
   visibility: hidden;
   margin: 0;
+}
+
+#form-section {
+}
+
+textarea {
+  resize: none;
 }
